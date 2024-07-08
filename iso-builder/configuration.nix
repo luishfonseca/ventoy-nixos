@@ -3,15 +3,15 @@
 
   isoImage.contents = [
     {
-      source = ./ts.key;
+      source = ./content/ts.key;
       target = "/ts.key";
     }
     {
-      source = ./ssh_host_ed25519_key;
+      source = ./content/ssh_host_ed25519_key;
       target = "/ssh_host_ed25519_key";
     }
     {
-      source = ./authorized_keys;
+      source = ./content/authorized_keys;
       target = "/authorized_keys";
     }
   ];
