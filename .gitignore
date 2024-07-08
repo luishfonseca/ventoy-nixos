@@ -1,2 +1,5 @@
 iso-builder/ts.key
 iso-builder/ssh_host_ed25519_key
+
+ISO/*
+!ISO/.gitkeep
