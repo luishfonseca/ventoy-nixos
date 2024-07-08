@@ -29,6 +29,4 @@
   '';
 
   services.openssh.authorizedKeysFiles = ["/iso/authorized_keys"];
-
-  services.getty.autologinUser = pkgs.lib.mkForce "root";
 }
