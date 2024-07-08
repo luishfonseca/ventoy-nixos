@@ -1,0 +1,9 @@
+{
+    "control":[
+        { "VTOY_LINUX_REMOUNT": "1" },
+        { "VTOY_MENU_TIMEOUT": "10" },
+        { "VTOY_SECONDARY_TIMEOUT": "10" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" },
+        { "VTOY_DEFAULT_IMAGE": "/ISO/nixos.iso" }
+    ]
+}
