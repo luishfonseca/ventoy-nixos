@@ -6,9 +6,7 @@
 
   outputs = {self, ...} @ inputs:
     inputs.flake-utils.lib.eachDefaultSystem (
-      system: let
-        pkgs = import inputs.nixpkgs {inherit system;};
-      in {
+      system: {
         nixosConfigurations.isoimage = inputs.nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [
